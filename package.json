@@ -1,0 +1,27 @@
+{
+  "name": "ble_location_rpi",
+  "version": "0.0.1",
+  "description": "Allows for a Raspberry Pi to be an advertising beacon",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/qbalsdon/ble_location_rpi.git"
+  },
+  "keywords": [
+    "Beacon",
+    "BLE",
+    "Location"
+  ],
+  "author": "Quintin Balsdon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qbalsdon/ble_location_rpi/issues"
+  },
+  "homepage": "https://github.com/qbalsdon/ble_location_rpi#readme",
+  "dependencies": {
+    "bleno": "^0.5.0"
+  }
+}
