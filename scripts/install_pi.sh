@@ -8,6 +8,8 @@ cleanup () {
 trap cleanup EXIT
 
 cd ~
+echo "=== Setup: UPDATE ==="
+sudo apt-get update
 echo "=== Setup: NPM ==="
 sudo apt-get -y install npm
 
