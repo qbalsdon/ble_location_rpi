@@ -1,10 +1,13 @@
 # Node.js BLE iBeacon Advertiser (using bleno)
 Raspberry Pi Ble Device
 
-## Prerequisites:
- - Node.js installed
- - A Bluetooth adapter on your system
- - 'bleno' library: `npm install bleno`
+## Setup:
+Run the following command:
+
+```
+sudo curl https://raw.githubusercontent.com/qbalsdon/ble_location_rpi/main/scripts/install_pi.sh | sh
+```
+
 
 ### Using a nodeenv
 - install nodeenv 

@@ -1,4 +1,4 @@
-const bleno = require('bleno');
+const bleno = require('@stoprocent/bleno');
 
 // iBeacon parameters (these are the values you'll typically configure)
 const beaconUuid = 'e2c56db5dffb48d2b060d0f5a71096e0'; // Example UUID
