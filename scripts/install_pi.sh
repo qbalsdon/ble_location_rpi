@@ -15,11 +15,7 @@ echo "=== Setup: Code ==="
 mkdir repo
 cd repo
 git clone https://github.com/qbalsdon/ble_location_rpi.git
-echo "======="
-pwd
-echo "======="
 cd ble_location_rpi
-pwd
 echo "======="
 sudo npm install
 

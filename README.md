@@ -2,10 +2,14 @@
 Raspberry Pi Ble Device
 
 ## Setup:
-Run the following command:
+Run the following commands once:
 
 ```
+# installs the code
 sudo curl https://raw.githubusercontent.com/qbalsdon/ble_location_rpi/main/scripts/install_pi.sh | sh
+
+# sets up to run on boot
+sudo curl https://raw.githubusercontent.com/qbalsdon/ble_location_rpi/main/scripts/init_service_pi.sh | sh
 ```
 
 
