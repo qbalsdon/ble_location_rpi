@@ -15,7 +15,7 @@ echo "=== Setup: Code ==="
 mkdir repo
 cd repo
 git clone https://github.com/qbalsdon/ble_location_rpi.git
-cd /home/pi/repo/ble_location_rpi/
+cd ble_location_rpi
 sudo npm install
 
 echo "System is ready to be rebooted"
