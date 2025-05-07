@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/qbalsdon/ble_location_rpi#readme",
   "dependencies": {
-    "@stoprocent/bleno": "^0.11.3"
+    "@stoprocent/bleno": "^0.11.3",
+    "@stoprocent/bluetooth-hci-socket": "^2.2.1"
   }
 }
